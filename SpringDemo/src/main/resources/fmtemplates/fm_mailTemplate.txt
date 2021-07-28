@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+<html>
+
+    <body>
+        <h3>Dear ${order.customerInfo.name}, thank you for placing order.</h3>
+
+        <div>
+            Your order id is : ${order.orderId}.
+        </div>
+        <span>Sent using FreeMarker Template</span>
+    </body>
+=======
+<html>
+
+    <body>
+        <h3>Dear ${order.customerInfo.name}, thank you for placing order.</h3>
+
+        <div>
+            Your order id is : ${order.orderId}.
+        </div>
+        <span>Sent using FreeMarker Template</span>
+    </body>
+>>>>>>> 015877d33c416a44442258f23eac1907bde167c8
+</html>
