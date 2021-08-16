@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+ <bean id="helloWorld" class="com.ioc.javaguides.javaconfig.bean.HelloWorld">
+  	<property name="message" value="Java Config by XML Example" />
+ </bean>
+ <bean id="springquizmaster" class="com.ioc.dzone.service.SpringQuizMaster"></bean>
+ <bean id="strutsquizmaster" class="com.ioc.dzone.service.StrutsQuizMaster"></bean>
+ <bean id="quizmasterservice" class="com.ioc.dzone.service.QuizMasterService">
+ 	<property name="quizMaster" ref="springquizmaster"></property>
+ </bean>
+</beans>
